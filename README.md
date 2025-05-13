@@ -39,21 +39,18 @@ Ukázka:
 
 ```
 Správce úkolů – Hlavní menu
-1. Přidat nový úkol      
+1. Přidat nový úkol
 2. Zobrazit všechny úkoly
-3. Odstranit úkol        
-4. Konec programu        
-Vyberte možnost (1–4): 1 
+3. Odstranit úkol
+4. Konec programu
+Vyberte možnost (1–4): 1
 
 Zadejte název úkolu: Úkol 1
 Zadejte popis úkolu: popis k úkolu 1
-Úkol 'Úkol 1' byl přidán.  
+Úkol 'Úkol 1' byl přidán.
 
-Správce úkolů – Hlavní menu
-1. Přidat nový úkol        
-2. Zobrazit všechny úkoly  
-3. Odstranit úkol
-4. Konec programu
+Hlavní menu
+...
 Vyberte možnost (1–4): 3   
 
 Seznam úkolů:
@@ -98,36 +95,34 @@ Follow the instructions in the command line. Choose an action, enter the corresp
 
 ## Example
 
-Initiation:
+Execution:
 
 `python main.py`
 
 Example:
+Note: The actual program interface and output are in Czech. The example below is translated for clarity.
 
 ```
-Správce úkolů – Hlavní menu
-1. Přidat nový úkol      
-2. Zobrazit všechny úkoly
-3. Odstranit úkol        
-4. Konec programu        
-Vyberte možnost (1–4): 1 
+Task Manager – Main Menu
+1. Add New Task
+2. View All Tasks
+3. Remove Task
+4. End Program
+Select an option (1–4): 1
 
-Zadejte název úkolu: Úkol 1
-Zadejte popis úkolu: popis k úkolu 1
-Úkol 'Úkol 1' byl přidán.  
+Enter Task name: Task 1
+Enter Task description: task description 1
+Task 'Task 1' has been added.
 
-Správce úkolů – Hlavní menu
-1. Přidat nový úkol        
-2. Zobrazit všechny úkoly  
-3. Odstranit úkol
-4. Konec programu
-Vyberte možnost (1–4): 3   
+Main Menu
+...
+Select an option (1–4): 3
 
-Seznam úkolů:
-1. Úkol 1 – popis k úkolu 1
+Task List:
+1. Task 1 – task description 1
 
-Zadejte číslo úkolu, který chcete odstranit: 1
-Úkol 'Úkol 1' byl odstraněn.
+Enter the number of task you wish to remove: 1
+Task 'Task 1' has been removed.
 ```
 
 ## Author
